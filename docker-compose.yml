@@ -4,6 +4,12 @@ services:
       context: ./D3lta
       dockerfile: .devcontainer/Dockerfile
     volumes:
-      - ./shared:/tmp/data
+      - ./shared/d3lta:/tmp/data
+    tty: true
+    stdin_open: true
+  python_dsn:
+    image: python:3.13
+    volumes:
+      - ./shared/python:/tmp/data
     tty: true
     stdin_open: true
