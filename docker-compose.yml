@@ -1,0 +1,9 @@
+services:
+  d3lta:
+    build:
+      context: ./D3lta
+      dockerfile: .devcontainer/Dockerfile
+    volumes:
+      - ./shared:/tmp/data
+    tty: true
+    stdin_open: true
