@@ -1,15 +1,13 @@
 services:
-  d3lta:
+  d3lta_dsn:
     build:
       context: ./D3lta
       dockerfile: .devcontainer/Dockerfile
     volumes:
-      - ./shared/d3lta:/tmp/data
-    tty: true
-    stdin_open: true
+      - .:/workspaces
+    command: sleep infinity
   python_dsn:
     image: python:3.13
     volumes:
-      - ./shared/python:/tmp/data
-    tty: true
-    stdin_open: true
+      - .:/workspaces
+    command: sleep infinity
