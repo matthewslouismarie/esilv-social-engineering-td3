@@ -17,3 +17,11 @@
 
 - [Lien vers le rapport](gephi/exercice3.md)
 - [reseau.png](gephi/reseau.png)
+
+## Exercice 4
+
+- [cotation_amiraute.ipynb](./cotation_amiraute.ipynb)
+
+## Exercice 6 (rapport final)
+
+- [note_renseignement.md](./note_renseignement.md)

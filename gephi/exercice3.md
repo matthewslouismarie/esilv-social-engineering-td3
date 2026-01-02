@@ -45,6 +45,14 @@ Par degré, le top 5 des comptes est :
 
 #### *Top 5 par betweenness ?*
 
+Le top 5 :
+
+1. Sophie_Journaliste
+2. Prof_EnergiePaysLoire
+3. AlerteVerite2024
+4. Dr_Laurent_CNRS
+5. InfoPatriote_FR
+
 ![Top 5 des comptes par betweenness](image-2.png)
 
 #### *Ces comptes appartiennent-ils aux clusters suspects ?*
